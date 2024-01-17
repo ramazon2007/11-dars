@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-gap: 20px;
+}
+.card img {
+    width: 200px;
+    height: 170px;
+    margin-left: 40px;
+}
+.card .h1
+{
+    position: relative;
+    font-family: arial;
+    text-align: center;
+}
+.card .h2
+{
+    position: relative;
+    font-family: arial;
+    text-align: center;
+}
+.card .h3
+{
+    position: relative;
+    font-family: arial;
+    text-align: center;
+}
+.card .h4
+{
+    position: relative;
+    font-family: arial;
+    text-align: center;
+}
+.card {
+    border: 5px solid red;
+
+}
+.card p
+{
+    text-align: center;
+}
+@media only screen and (max-width: 1150px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px;
+    }
+    .card img{
+        width: 300px;
+        height: 170px;
+    }
+    .card .h1
+    {
+        font-size: 25px;
+    }
+    .card .h2
+    {
+        font-size: 25px;
+    }
+    .card .h3
+    {
+        font-size: 25px;
+    }
+    .card .h4
+    {
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px;
+    }
+    .card img
+    {
+        width: 350px;
+        height: 200px;
+    }
+    .card .h1
+    {
+        font-size: 20px;
+    }
+    .card .h2
+    {
+        font-size: 20px;
+    }
+    .card .h3
+    {
+        font-size: 20px;
+    }
+    .card .h4
+    {
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px;
+
+    }
+    .card img {
+        width: 200px;
+        height: 150px;
+        margin-left: 120px;
+    }
+    .card .h1
+    {
+        font-size: 20px;
+    }
+    .card .h2
+    {
+        font-size: 20px;
+    }
+    .card .h3
+    {
+        font-size: 20px;
+    }
+    .card .h4
+    {
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 13px;
+    }
+}
